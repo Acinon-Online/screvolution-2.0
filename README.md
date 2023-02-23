@@ -1,30 +1,14 @@
-# Scratch 2.0 editor and player [![Build Status](https://api.travis-ci.org/LLK/scratch-flash.svg?branch=master)](https://travis-ci.org/LLK/scratch-flash)
+# ScrEvolution 2.0 editor and player
 
-## Note
-
-**Scratch 2.0 is now in maintenance mode while the team focuses efforts on [Scratch
-3.0](https://scratch.mit.edu/developers). While critical issues will be addressed please note that any feature
-requests or minor issues will not be reviewed until the next major release.**
+## Notes for building in 2023 and after
+I've had to patch up the build system so it could continue working. As of now, Macromedia no longer provides Flash globals. I've packaged playerglobal 11_6 with the repository and changed build settings to add it as a dependency. These fixes will probably not work with IntelliJ and FP 10.2-11.5 builds.
+You will probably have to install Flash Player 11.6 in order to run ScrEvolution 2.0. It appears to crash newer versions of Flash Player. This means that, unfortunately, running ScrEvolution on IA64 and ARM64 Macs running macOS Catalina 10.15 and above is impossible at the moment. If anyone has a fix for this, feel free to contribute it!
 
 ## Overview
 
-This is the open source version of Scratch 2.0 and the core code for the official version found on
-<http://scratch.mit.edu>. This code has been released under the GPL version 2 license. Forks can be released under the
-GPL v2 or any later version of the GPL.
-
-If you're interested in contributing to Scratch, please take a look at the issues on this repository. Two great ways
-of helping Scratch are by identifying bugs and documenting them as issues, or fixing issues and creating pull
-requests. When submitting pull requests please be patient -- the Scratch Team is very busy and it can take a while to
-find time to review them. The organization and class structures can't be radically changed without significant
-coordination and collaboration from the Scratch Team, so these types of changes should be avoided.
-
-It's been said that the Scratch Team spends about one hour of design discussion for every pixel in Scratch, but some
-think that estimate is a little low. While we welcome suggestions for new features in our [suggestions
-forum](http://scratch.mit.edu/discuss/1/) (especially ones that come with mockups), we are unlikely to accept PRs with
-new features that we haven't deeply thought through. Why? Because we have a strong belief in the value of keeping
-things simple for new users. To learn more about our design philosophy, see [this forum
-post](http://scratch.mit.edu/discuss/post/1576/) or [this
-paper](http://web.media.mit.edu/~jmaloney/papers/ScratchLangAndEnvironment.pdf).
+This is ScrEvolution 2.0, a block-based code editor and player based on Scratch 2.0. It is intended as an unofficial succesor to Scratch 2.0, since the Scratch Team has shifted development to Scratch 3.0 in 2019.
+This project is licensed under the GNU GPLv2 (unfortunately).
+Helpful contributions are welcome!
 
 ## Quick Start: Building and Debugging with Visual Studio Code
 
