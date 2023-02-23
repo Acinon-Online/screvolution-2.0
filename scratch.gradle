@@ -12,10 +12,10 @@ repositories {
         name 'Apache Flex'
         artifactPattern 'http://archive.apache.org/dist/flex/[revision]/binaries/[module]-[revision]-bin.[ext]'
     }
-    ivy {
+    /*ivy {
         name 'Player Globals'
-        artifactPattern 'https://archive.org/download/flashplayerarchive/get/flashplayer/installers/archive/playerglobal/playerglobal11_6.zip'
-    }
+        artifactPattern 'http://fpdownload.macromedia.com/get/flashplayer/installers/archive/[module]/[module][revision].[ext]'
+    }*/
 }
 
 apply plugin: org.gradlefx.plugins.GradleFxPlugin
