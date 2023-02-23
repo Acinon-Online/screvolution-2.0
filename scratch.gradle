@@ -14,7 +14,7 @@ repositories {
     }
     ivy {
         name 'Player Globals'
-        artifactPattern 'http://fpdownload.macromedia.com/get/flashplayer/installers/archive/[module]/[module][revision].[ext]'
+        artifactPattern 'https://archive.org/download/flashplayerarchive/get/flashplayer/installers/archive/playerglobal/playerglobal11_6.zip'
     }
 }
 
